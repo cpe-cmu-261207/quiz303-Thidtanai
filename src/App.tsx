@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { comments } from './data/comments';
 
+
 function App() {
+  type CommentType = {
+    username: string;
+    userImagePath: string;
+    commentText: string;
+    likeNum: number;
+    replies: CommentType[]
+  }
+
+  
   return (
     <div className="p-2">
       {/* post container */}
