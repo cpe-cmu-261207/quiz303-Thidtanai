@@ -24,7 +24,7 @@ function App() {
 
           {/* image and name */}
           <div className="flex space-x-2 items-center">
-            <img className="w-12 h-12 rounded-full" src="/profileImages/handsomesame.jpg"></img>
+            <img className="w-12 h-12 rounded-full" src="/profileImages/Handsomesame.jpg"></img>
             <span className='font-semibold text-lg'>Thidtanai Kaewphet 630610741</span>
           </div>
 
@@ -78,7 +78,7 @@ function App() {
           </div>
 
           <div className="flex p-2 items-start space-x-2">
-            <img className="w-10 w-10 rounded-full" src="/profileImages/CharlieBrown.jpg"></img>
+            <img className="w-10 w-10 rounded-full" src="/profileImages/charliebrown.jpg"></img>
             <div className="bg-gray-200 rounded-lg p-2">
               <p className="font-semibold">Charlie Brown</p>
               <p>บ้าไปเเล้ว</p>
